@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.TP {
+	width: 400px;
+	height: auto;
+	margin: 0px;
+}
+header {
+	background-color: black;
+	width: 100%;
+}
+.CarteNain {
+	width: 500px;
+	height: auto;
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+body {
+	background-image: url(../IMG/BACKGROUND/Gold.png);
+}
+.BarbeFeuTexte {
+	width: 1405px;
+}
+.fond {
+	width: 1405px;
+	height: 25px;
+	background-color: black;
+}
+.grille1 {
+	display: grid;
+	grid-template-columns: 500px 1fr;
+	grid-template-rows: 1fr 25px;
+	grid-gap: 0px;
+}
+footer {
+	background-color: black;
+	width: 100vw;
+	height: 200px;
+}
+.imgfoot {
+	width: 300px;
+	height: auto;
+	padding-top: 75px;
+	margin-right: 50px;
+}
+.imgfoot2 {
+	width: 120px;
+	height: auto;
+		margin-right: 50px;
+
+}

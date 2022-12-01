@@ -1,0 +1,78 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.TP {
+	width: 400px;
+	height: auto;
+	margin: 0px;
+}
+header {
+	width: 100vw;
+	background-color: black;
+}
+.main {
+	background-image: url(../IMG/BACKGROUND/imagefoncombe.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 1000px;
+}
+.Titre {
+		filter: drop-shadow(30px 20px 4px rgba(0, 0, 0, 0.7));
+	width: 800px;
+	padding-top: 50px;
+	padding-left: 500px;
+	height: auto;
+}
+.elrond {
+	filter: opacity(80%);
+	padding-left: 400px;
+	position: absolute;
+	top: 600px;
+	margin-left: 80px;
+	z-index: 2;
+	filter: opacity(60%);
+}
+@font-face {
+	font-family: 'elfique';
+	src: url('../FONTS/tengwarfeanorregular.ttf');
+}
+.elfique {
+	font-family: 'elfique';
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	padding-left: 1000px;
+	margin-top: -700px;
+}
+.boiteelfe {
+	z-index: -1;
+	filter: opacity(60%);
+}
+.traduction {
+	color: white;
+	font-size: 45px;
+	padding-left: 25px;
+	padding-top: 50px;
+}
+footer {
+	background-color: black;
+	width: 100vw;
+	height: 200px;
+}
+.imgfoot {
+	width: 300px;
+	height: auto;
+	padding-top: 75px;
+	margin-right: 50px;
+}
+.imgfoot2 {
+	width: 120px;
+	height: auto;
+		margin-right: 50px;
+
+}

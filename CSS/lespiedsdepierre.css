@@ -1,0 +1,66 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 800px;
+}
+.TP {
+	width: 400px;
+	height: auto;
+	margin: 0px;
+}
+header {
+	background-color: black;
+	width: 100%;
+}
+.CarteNain {
+	width: 500px;
+	height: auto;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+}
+body {
+	background-image: url(../IMG/BACKGROUND/Gold.png);
+}
+.PiedspierreTexte {
+	width: 1405px;
+	grid-row-start: 1;
+	grid-column-start: 2;
+}
+.fond {
+	width: 1405px;
+	height: 375px;
+	background-color: black;
+	grid-row-start: 2;
+	grid-column-start: 2;
+}
+
+.grille1 {
+	display: grid;
+	grid-template-columns: 500px 1fr;
+	grid-template-rows: 1fr 414px;
+	grid-gap: 0px;
+}
+footer {
+	background-color: black;
+	width: 100vw;
+	height: 200px;
+	position: absolute;
+	top: 1300px;
+}
+.imgfoot {
+	width: 300px;
+	height: auto;
+	padding-top: 75px;
+	margin-right: 50px;
+}
+.imgfoot2 {
+	width: 120px;
+	height: auto;
+		margin-right: 50px;
+
+}
